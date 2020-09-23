@@ -1,0 +1,110 @@
+@media (max-width: 1023px){
+    .advancedSearchText{width: 50vw;}
+    .searchText{width: 50vw;}
+}
+@media (min-width: 1024px){
+    .advancedSearchText{width: 573vw;}
+    .searchText{width: 483vw;}
+}
+
+.roboto{
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.links{
+    top: 0;
+    left: 0;
+    transform: none;
+}
+
+.centered{
+    margin: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.x-axis-centered{
+    margin: auto;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.subBanner {
+    font-size: 15pt;
+    color: #de5426;
+}
+
+.searchText {
+border-color: #f1f1f1;
+border-width: 2px;
+border-radius: 40px;
+max-width: 483px;
+height: 45px;
+text-indent: 1.5em;
+}
+
+/*Code for changing selected textboxes found at https://stackoverflow.com/questions/43427993/change-the-color-of-a-input-field-when-selected */
+.advancedSearchText:focus{
+    outline: 1px solid #4c8bf5;     
+    /* Google Blue...*/
+  }
+
+.searchText:focus{
+    outline:none;
+}
+
+.searchText:hover{
+    border: 2px solid #dedede;
+}
+
+#findPages{
+    font: 12pt;
+}
+
+.advancedRow {
+    font: 10pt;
+}
+
+.advancedSearchText {
+border-color: #f1f1f1;
+border-width: 1px;
+max-width: 573px;
+height: 24px;
+text-indent: 0.5em;
+}
+
+.regularButton{
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #5f6368;
+}
+
+.regularButton:hover{
+    border: 1px solid #5f6368;
+    color: black;
+}
+
+#advancedButton{
+border-radius: 5px;
+text-align: center;
+background-color: #4c8bf5;
+color: white;
+font-size: 8pt;
+font-weight: bold;
+border: none;
+width: 125px;
+height: 32px;
+}
+
+#advancedButton:hover{
+    border: 1px solid darkblue;
+    background-color: #0f64f2;
+}
